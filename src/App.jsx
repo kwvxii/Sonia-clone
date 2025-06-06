@@ -8,6 +8,7 @@ import Hiring from "./components/Hiring";
 import Research from "./components/Research";
 import Partnerships from "./components/Partnerships";
 import "./index.css";
+import loadingImg from "../assets/logosoniabora.svg";
 
 function App() {
   const [activeSection, setActiveSection] = useState("sonia");
@@ -25,7 +26,7 @@ function App() {
 
   return (
     <main className={`animated ${menuOpen ? "menu-open" : ""}`}>
-      <img src="/assets/logosoniacoconut.svg" alt="Sonia Logo" className="logo hidden" />
+      <img src={loadingImg} alt="Sonia Logo" className="logo hidden" />
 
       <div className="content visible">
         <button className="menu-button" onClick={() => setMenuOpen(!menuOpen)}>
