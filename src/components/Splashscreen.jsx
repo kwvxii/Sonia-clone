@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './Splashscreen.css';
-import loadingImg from "../assets/logosoniabora.svg";
+import loadingImg from "src/assets/logosoniabora.svg";
 
 function SplashScreen({ onAnimationEnd }) {
   const [animate, setAnimate] = useState(false);
