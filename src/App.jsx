@@ -8,7 +8,7 @@ import Hiring from "./components/Hiring";
 import Research from "./components/Research";
 import Partnerships from "./components/Partnerships";
 import "./index.css";
-import loadingImg from "../assets/logosoniabora.svg";
+import loadingImg from "./assets/logosoniabora.svg";
 
 function App() {
   const [activeSection, setActiveSection] = useState("sonia");
